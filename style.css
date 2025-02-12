@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #333;
+  background-color: rgb(220, 220, 220);
+}
+header {
+  background-color: #fff;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.nav-bar img {
+  margin-left: 90px;
+}
+.nav-bar-links {
+  display: flex;
+  align-items: center;
+}
+.nav-bar-links ul {
+  display: flex;
+  list-style-type: none;
+  margin-right: 90px;
+}
+.nav-bar-links ul a {
+  color: #609af6;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border-right: 2px solid #808080;
+  margin-right: 5px;
+  padding: 0 7px;
+  font-weight: 600;
+}
+.nav-bar-links ul a:hover {
+  text-decoration: underline;
+  color: #0a2856;
+}
+.nav-bar {
+  border-bottom: 4px solid #609af6;
+}
+
+.nav-bar-links ul li:last-child a {
+  border-right: none;
+}
+
+main {
+  background-color: #fff;
+  margin: 30px auto;
+  border: 1px solid #c0bfbf;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(205, 203, 203);
+  height: 65vh;
+}
+
+.content-login-linkedin {
+  margin: 30px auto;
+  display: flex;
+  gap: 30px;
+}
+.linkedin-info {
+  display: flex;
+  flex-direction: column;
+}
+.linkedin-info h1 {
+  color: #609af6;
+  margin: 5px 0 20px 20px;
+}
+.search-people {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.search-people img {
+  width: 15%;
+  margin-left: 12px;
+}
+.search-people p {
+  font-size: 1.4rem;
+  color: #666;
+}
+.linkedin-login {
+  width: 60%;
+  border: 1px solid rgb(187, 186, 186);
+  border-top: none;
+  height: 35vh;
+  margin: 5px 40px;
+  border-radius: 10px;
+}
+.linkedin-login h2 {
+  background-color: #3a85c2;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 10px 10px 0 0;
+}
+.linkedin-login form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form .form-input {
+  margin-top: 10px;
+}
+form .form-input label {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-right: 10px;
+  color: #333;
+}
+
+form .form-input input {
+  padding: 3px 12px;
+}
+
+.form-input .email-label {
+  display: inline-block;
+  text-align: end;
+  margin-left: 27px;
+}
+.form-input .email-input {
+  display: inline-block;
+}
+form button {
+  background-color: rgb(73, 176, 10);
+  color: white;
+  padding: 3px 20px;
+  border: 1px solid #a5a5a5;
+  margin-top: 10px;
+  font-weight: 600;
+  margin-right:18px;
+  cursor: pointer;
+}
+form button:hover{
+  background-color: #3a85c2;
+  color:#fff;
+}
+.sign-in-link {
+  display: flex;
+  text-align: center;
+  margin: 10px 0 0 30px;
+}
+.sign-in-link p {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: #555;
+}
+
+.sign-in-link a {
+  color: blue;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-left: 5px;
+}
+hr {
+  width: 92%;
+  margin-left: 40px;
+}
+
+.search-someone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.search-someone p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #666;
+}
+.search-someone input {
+  padding: 2px 10px 2px 0;
+}
+
+.search-someone input::placeholder {
+  color: #999;
+}
+
+.search-someone input[type='submit'] {
+  padding-left: 5px;
+  color:#777;
+  font-weight:600;
+}
+.people-directory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  margin-top: 20px;
+}
+.people-directory p {
+  font-size: 1.5rem;
+  color: #888;
+  font-weight: 600;
+  margin-right:20px;
+}
+.people-directory a {
+  color: rgb(2, 69, 203);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+footer {
+  background-color: #e9e8e8;
+  border-top: 2px solid rgb(169, 169, 169);
+  height: 25vh;
+  width: 1000px;
+  margin: 0 auto 30px;
+}
+.footer-links {
+  display: flex;
+  padding: 5px;
+}
+.footer-links:first-child {
+  margin-top: 15px;
+}
+.footer-links h4 {
+  font-size: 1.3rem;
+  color: #888;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.footer-links ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: 20px;
+}
+.footer-links ul li a {
+  font-size: 1.2rem;
+  color: rgb(5, 137, 225);
+  text-decoration: none;
+  padding: 0 5px;
+  border-right: 1px solid rgb(140, 140, 142);
+  padding:0 10px;
+  
+}
+.footer-links ul li:last-child a {
+  border: none;
+}
+.customer-service-link {
+  font-weight: 600;
+}
+.tools-link li:first-child a {
+  margin-left: 25px;
+}
+.footer-links p {
+  font-size: 1.1rem;
+  margin: 10px 0 5px 20px;
+  font-weight: bold;
+  color: #888;
+}
+.user-agreement {
+  border-left: 1px solid rgb(140, 140, 142);
+ 
+}
+
+.linkeding-corporation {
+  margin-top: 10px;
+}
+footer .footer-terms-use {
+  margin: 0 0 50px 25px;
+  font-size: 1.2rem;
+}
+footer .footer-terms-use a {
+  color: rgb(57, 143, 247);
+  text-decoration: none;
+}
